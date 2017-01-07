@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'articles/edit'
+
   get 'articles/index'
 
   get 'articles/show'
